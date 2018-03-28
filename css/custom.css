@@ -1,0 +1,65 @@
+/* for use with Bootstrap 4 */
+:root {
+    --header-text-font: 'VT323', monospace;
+    --main-text-font: 'Cutive Mono', monospace;
+    --accent-text-font: 'Raleway', sans-serif;
+    --main-bg-color: #343A40;
+    --main-text-color: #F8F8FF;
+    --disabled-content-color: #555555;
+}
+
+header {
+    font-size: 1.2em;
+}
+
+h1, h2 {
+    font-family: var(--header-text-font);
+}
+
+.clearfix {
+    overflow: hidden;
+}
+
+body, .card-custom {
+    background-color: var(--main-bg-color);
+    font-family: var(--main-text-font);
+    color: var(--main-text-color);
+    
+
+}
+
+.container {
+    padding-bottom: 15vw;
+}
+
+@media only screen and (max-width: 768px) {
+    footer {
+        border-top-style: dotted;
+        border-top-width: 1px;
+        border-top-color: white;
+       
+    }
+}
+
+
+
+.card-custom {
+    height: 25rem;
+}
+
+.disabled-btn-custom {
+    pointer-events: none;
+    background-color: var(--disabled-content-color);
+    border-color: var(--disabled-content-color);
+    font-family: var(--accent-text-font);
+}
+
+
+
+.nav-item.nav-link.col-3 {
+    width: auto;
+}
+
+.navbar-nav>a {
+    display: inline-block;
+}
