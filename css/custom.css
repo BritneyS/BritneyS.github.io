@@ -8,10 +8,40 @@
     --disabled-content-color: #555555;
 }
 
+html {
+    overflow: hidden;
+}
 header {
     font-size: 1.2em;
 }
-
+.typewriter-line{
+    position: relative;
+    top: 50%;  
+    width: 10em;
+    border-right: 2px solid #F8F8FF;
+    font-size: 180%;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-25%);    
+}
+/*typewriter animation*/
+.anim-typewriter{
+    animation: typewriter 3s steps(32) 1s 1 normal both, 
+               blinkCursor 500ms steps(32) infinite normal;
+}
+@keyframes typewriter{
+    from{width: 0;
+    }
+    to{width: 9em;
+    }
+}
+@keyframes blinkCursor{
+    from{border-right-color: #F8F8FF;
+    }
+    to{border-right-color: transparent;
+    }
+}
 h1, h2 {
     font-family: var(--header-text-font);
 }
