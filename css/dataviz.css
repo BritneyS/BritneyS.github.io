@@ -1,0 +1,45 @@
+/* html {
+    padding: 0;
+} */
+div.container.dataviz{
+    width: 100%;
+    height: 125em;
+    margin-right: 2em;
+    margin-left: 7em;
+    overflow: hidden;
+    border: solid;
+
+}
+h1.dataviz{
+    position: relative;
+    width: 20em;
+    margin-left: 15em;
+    margin-right: 15em;   
+}
+.container-chart-1{
+    width: 50%;
+    height: 25%;
+    margin: 0;
+    border: dotted;
+}
+.container-chart-2{
+    width: 50%;
+    height: 25%;
+    margin: 0;
+    border: dotted;
+}
+.miPopChart{
+    width: 100%;
+    height: 100%;
+}
+.miPopChart-2{
+    width: 100%;
+    height: 100%;
+}
+.clearfix {
+    overflow: hidden;
+}
+
+canvas {
+    border: solid;
+}

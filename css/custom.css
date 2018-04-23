@@ -2,23 +2,24 @@
 :root {
     --header-text-font: 'VT323', monospace;
     --main-text-font: 'Cutive Mono', monospace;
+    --main-text-size: 1.2em;
     --accent-text-font: 'Raleway', sans-serif;
     --main-bg-color: #343A40;
     --main-text-color: #F8F8FF;
     --disabled-content-color: #555555;
 }
-
-html {
-    overflow: hidden;
+.main-text {
+    font-size: var(--main-text-size);
 }
+
 header {
     font-size: 1.2em;
 }
-.typewriter-line{
+.typewriter-line {
     position: relative;
-    top: 50%;  
+    top: 25%;  
     width: 10em;
-    border-right: 2px solid #F8F8FF;
+    border-right: 5px solid #F8F8FF;
     font-size: 180%;
     text-align: left;
     white-space: nowrap;
@@ -27,8 +28,8 @@ header {
 }
 /*typewriter animation*/
 .anim-typewriter{
-    animation: typewriter 3s steps(32) 1s 1 normal both, 
-               blinkCursor 500ms steps(32) infinite normal;
+    animation: typewriter 5s steps(39) 1s 1 normal both, 
+               blinkCursor 950ms steps(44) infinite normal;
 }
 @keyframes typewriter{
     from{width: 0;

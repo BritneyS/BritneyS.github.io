@@ -10,6 +10,7 @@
     <!-- CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet" >
+    <link href="css/dataviz.css" rel="stylesheet" >
 </head>
 <body>
     <div class="wrapper">
@@ -32,16 +33,28 @@
               </ul>
             </div>
         </nav><!--end navigation-->
-        <div class="container">
-            <canvas id="miPopChart" width="400" height="400"></canvas>
-        </div><!--end container-->
+        <h1 class="dataviz">Michigan Stats</h1>
+            <div class="container dataviz">
+                <div class="row">
+                    <div class="col-sm-6 col-xs-12 container-chart-1">
+                        <canvas id="miPopChart"></canvas>
+                    </div>
+                    <div class="col-sm-6 col-xs-12 container-chart-2">
+                        <canvas id="miPopChart-2"></canvas>
+                    </div>
+                </div>
+            </div><!--end container-->
+        
+        <footer>
+            <p>Copyright &copy 2018, Britney Smith</p>
+        </footer>
     </div><!--end wrapper-->
     <!--JavaScript-->
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/popper.js"></script>
     <script src="js/Chart.min.js"></script>
-    <script src="js/custom.js"></script>
+    <script src="js/dataviz.js"></script>
 </body>
 </html>
 
