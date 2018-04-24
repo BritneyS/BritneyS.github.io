@@ -12,8 +12,10 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet"> 
     <!-- CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/custom.css" rel="stylesheet" >
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+    <link rel="stylesheet" href="css/github-activity-0.1.5.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
     <!--Import materialize.css-->
     <!--<link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>-->
     <!--Icons-->
@@ -24,7 +26,7 @@
   </head>
 
   <body>
-    <div class="wrapper">
+    <div class="wrapper clearfix">
       <!-- Navigation -->
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
           <a class="navbar-brand" href="#">[Logo]</a>
@@ -43,8 +45,8 @@
               <li class="nav-item col-3 offset-4"><a class="nav-link navbar-right" href="#">Contact</a></li>
             </ul>
           </div>
-        </nav>
-      <div class="container">
+        </nav> <!-- end navigation -->
+      <div class="container clearfix">
         <section class="main">
           <header>
             <h1 class="typewriter-line anim-typewriter">Hi, I'm Britney Smith.</h1>
@@ -84,17 +86,26 @@
                   </div>
                 </div>
             </div><!--end row-->
-            <p id="maint-text">View my full CV here: <a href="https://www.linkedin.com/in/smithbritney/">LinkedIn</a></p>
+            <p id="main-text">View my full CV here: <a href="https://www.linkedin.com/in/smithbritney/">LinkedIn</a></p>
         </section>
+        <section class="github-feed clearfix">
+          <div id="feed" class="feed-custom"></div>
+        </section> <!-- end github feed -->
+        <!-- <sidebar class="github-feed clearfix">
+          <div id="feed"></div>
+        </sidebar> -->
       </div><!--end container-->
       <footer>
           <p>Copyright &copy 2018, Britney Smith</p>
       </footer>
     </div><!--end wrapper-->
     <!--JavaScript-->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/popper.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+    <script type="text/javascript" src="js/github-activity-0.1.5.min.js"></script>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/popper.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
   </body>
 </html>
 

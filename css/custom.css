@@ -4,14 +4,24 @@
     --main-text-font: 'Cutive Mono', monospace;
     --main-text-size: 1.2em;
     --accent-text-font: 'Raleway', sans-serif;
-    --main-bg-color: #343A40;
+    --main-background-color: #343A40;
     --main-text-color: #F8F8FF;
     --disabled-content-color: #555555;
+}
+section.github-feed {
+    /* float: right;
+    clear: right; */
+    width: 100%;
+    height: 22em;
+    overflow: scroll;
+}   
+section.main {
+    float: left;
+   
 }
 .main-text {
     font-size: var(--main-text-size);
 }
-
 header {
     font-size: 1.2em;
 }
@@ -46,19 +56,18 @@ header {
 h1, h2 {
     font-family: var(--header-text-font);
 }
-
-.clearfix {
-    overflow: hidden;
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
-
 body, .card-custom {
-    background-color: var(--main-bg-color);
+    background-color: var(--main-background-color);
     font-family: var(--main-text-font);
     color: var(--main-text-color);
     
 
 }
-
 .container {
     padding-bottom: 15vw;
 }
@@ -71,9 +80,6 @@ body, .card-custom {
        
     }
 }
-
-
-
 .card-custom {
     height: 25rem;
 }
@@ -84,13 +90,15 @@ body, .card-custom {
     border-color: var(--disabled-content-color);
     font-family: var(--accent-text-font);
 }
-
-
-
 .nav-item.nav-link.col-3 {
     width: auto;
 }
 
 .navbar-nav>a {
     display: inline-block;
+}
+
+/* custom styling for github feed widget */
+.gba-feed #feed.feed-custom {
+    background-color: var(--main-background-color);
 }
