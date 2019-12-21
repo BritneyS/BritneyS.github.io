@@ -1,0 +1,80 @@
+/* for use with Bootstrap 4 */
+:root {
+    --main-text-font: 'Helvetica', 'Arial', sans-serif;
+    --main-text-size: 1.2em;
+    --main-letter-spacing: 0.2rem;
+    --dark-color: #071520;
+    --medium-dark-color: #413c69;
+    --medium-color: #4a47a3;
+    --medium-light-color: #ad62aa;
+    --light-color: #f4b0c7;
+    --lightest-color: #F8F8FF;
+}
+
+body {
+    font-family: var(--main-text-font);
+    color: var(--lightest-color);
+    letter-spacing: var(--main-letter-spacing);
+    overflow-x: hidden;
+    background: var(--dark-color);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+div.wrapper {
+    width: 100vw;
+    height: 100%;
+    background-image: url(/images/hero-image-purple-mountain.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.nav-item.nav-link.col-3 {
+    width: auto;
+}
+
+.navbar-nav>a {
+    display: inline-block;
+}
+
+div.content-container {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+header {
+    height: 30%;
+    width: 100%;
+    font-size: var(--main-text-size);
+    position: relative;
+}
+
+div.header-container {
+    margin-top: 60%;
+    padding: 0px 50px;
+    position: relative;
+}
+
+div.header-text-container {
+    margin: 30px;
+}
+
+#header-text {
+    position: relative;
+}
+
+section.under-construction {
+    position: relative;
+    color: #f4b0c7;
+    margin: 4% 8% 4% 8%;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
