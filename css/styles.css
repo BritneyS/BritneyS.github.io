@@ -83,8 +83,9 @@ div.swatch-4 {
     display: inline-block;
 }
 
-h1, h2 {
-    font-family: var(--header-text-font);
+div.content-container {
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 section.github-feed {
@@ -129,11 +130,10 @@ section.main {
     }
 }
 
-@keyframes blinkCursor{
-    from{border-right-color: #F8F8FF;
-    }
-    to{border-right-color: transparent;
-    }
+section.under-construction {
+    position: relative;
+    color: #f4b0c7;
+    margin: 4% 8% 4% 8%;
 }
 
 .clearfix::after {
