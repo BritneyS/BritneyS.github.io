@@ -1,14 +1,14 @@
 /* for use with Bootstrap 4 */
 :root {
-    --header-text-font: 'Helvetica', 'Arial', sans-serif;
     --main-text-font: 'Helvetica', 'Arial', sans-serif;
     --main-text-size: 1.2em;
     --main-letter-spacing: 0.2rem;
-    --accent-text-font: 'Raleway', sans-serif;
-    --main-background-color: #4a47a3;
-    --card-background-color: rgba(188,41,112,1);
-    --main-text-color: #F8F8FF;
-    --disabled-content-color: #555555;
+    --dark-color: #071520;
+    --medium-dark-color: #413c69;
+    --medium-color: #4a47a3;
+    --medium-light-color: #ad62aa;
+    --light-color: #f4b0c7;
+    --lightest-color: #F8F8FF;
 }
 
 body {
