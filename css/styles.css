@@ -88,46 +88,25 @@ div.content-container {
     margin-bottom: 10%;
 }
 
-section.github-feed {
-    /* float: right;
-    clear: right; */
+header {
+    height: 30%;
     width: 100%;
-    height: 22em;
-    overflow: scroll;
-}
-
-section.main {
-    float: left;
-   
-}
-
-.main-text {
     font-size: var(--main-text-size);
-}
-
-.typewriter-line {
     position: relative;
-    top: 25%;  
-    width: 10em;
-    border-right: 5px solid #F8F8FF;
-    font-size: 180%;
-    text-align: left;
-    white-space: nowrap;
-    overflow: hidden;
-    transform: translateY(-25%);    
 }
 
-/*typewriter animation*/
-.anim-typewriter{
-    animation: typewriter 5s steps(39) 1s 1 normal both, 
-               blinkCursor 950ms steps(44) infinite normal;
+div.header-container {
+    margin-top: 60%;
+    padding: 0px 50px;
+    position: relative;
 }
 
-@keyframes typewriter{
-    from{width: 0;
-    }
-    to{width: 9em;
-    }
+div.header-text-container {
+    margin: 30px;
+}
+
+#header-text {
+    position: relative;
 }
 
 section.under-construction {
